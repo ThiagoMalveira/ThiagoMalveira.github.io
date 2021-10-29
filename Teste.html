@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teste 1</title>
+  <link rel="stylesheet" type="text/css" href="custom.css" media="screen" />
+</head>
+<body>
+  <div class="principal">
+    
+    <div class="superior">
+        <h1>$167 still needed for this project</h1>
+    </div>
+    
+    <div class="central">
+      <div class="progress-bar-out"></div>
+      
+      <h2><code>Only 3 days left</code> to found this project</h2>
+          <h3>Join the <strong>42</strong> other donors who have already supported this project. Every dollar helps.</h3>
+      
+      <form id="formDonation">
+        <input id="donation" name="valor" value="50" type="text" placeholder="$">
+        <button id="botao-adiciona" class="central-button">
+          Give now
+        </button>
+      </form>
+      
+      <div>
+        <a href="#">Why give $50?</a>
+      </div>
+
+    </div>
+
+
+    <div class="footer">
+      <button class="button-bottom1">
+        Save for later
+      </button>
+      <button class="button-bottom2">
+        Tell your friends
+      </button>
+    </div>
+  </div>
+  <table>
+    <thead>
+        <tr>
+            <th>Amount</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody id="tabela-donations">
+        <tr class="donation">
+            <td class="valor">$50</td>
+            <td class="data">31/12/2020 10:42</td>
+        </tr>
+        <tr class="donation">
+            <td class="valor">$21</td>
+            <td class="data">31/12/2020 10:43</td>
+        </tr>
+        <tr class="donation">
+            <td class="valor">$82</td>
+            <td class="data">31/12/2020 10:44</td>
+        </tr>
+    </tbody>
+  </table>
+
+  <script src="script.js"></script>
+</body>
+</html>
